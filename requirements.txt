@@ -2,7 +2,6 @@ pyspark==3.3.1
 streamlit==1.15.0
 streamlit-lottie==0.0.3
 matplotlib
-base64
 json
 SparkSession
 LinearRegression
