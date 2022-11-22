@@ -30,7 +30,7 @@ col3.markdown("")
 col3.markdown("\nFill the information given below to predict your wine quality.")
 
 os.environ['PYSPARK_PYTHON'] = sys.executable
-os.environ['PYSPARK_DIRVER_PYTHON'] = sys.executable
+os.environ['PYSPARK_DRIVER_PYTHON'] = sys.executable
 
 spark = SparkSession.builder.master('local[*]').appName("winequalitypredict").getOrCreate()
 
